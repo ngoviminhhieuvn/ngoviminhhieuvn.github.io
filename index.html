@@ -10,6 +10,15 @@
 </head>
 <body>
 <img src="/vietnam.png" width="1920" height="1080" />
-<audio autoplay='true' src='/vietnam.mp3'/>
+
+  <audio id="autoplay">
+  <source src="/vietnam.mp3">
+</audio>
+
+<script>
+	document.getElementById('autoplay').play();
+</script>
+  
+  
 </body>
 </html>
